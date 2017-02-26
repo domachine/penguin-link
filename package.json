@@ -1,7 +1,6 @@
 {
   "name": "penguin-link",
   "version": "0.0.0",
-  "description": "",
   "module": "index.js",
   "scripts": {
     "prepublishOnly": "rollup -c rollup.config.js -o index.js src/index.js",
@@ -19,5 +18,15 @@
     "rollup-plugin-buble": "^0.15.0",
     "rollup-watch": "^3.2.2",
     "standard": "^8.6.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domachine/penguin-link.git"
+  },
+  "bugs": {
+    "url": "https://github.com/domachine/penguin-link/issues"
+  },
+  "homepage": "https://github.com/domachine/penguin-link#readme",
+  "description": "A simple link component for penguin."
 }
