@@ -1,13 +1,16 @@
 {
   "name": "penguin-link",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "module": "index.js",
   "scripts": {
     "prepublishOnly": "rollup -c rollup.config.js -o index.js src/index.js",
     "watch": "rollup -w -c rollup.config.js -o index.js src/index.js",
     "test": "standard"
   },
-  "keywords": ["penguinjs", "penguinjs-component"],
+  "keywords": [
+    "penguinjs",
+    "penguinjs-component"
+  ],
   "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
   "license": "MIT",
   "dependencies": {
