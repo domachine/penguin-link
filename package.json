@@ -7,7 +7,7 @@
     "watch": "rollup -w -c rollup.config.js -o index.js src/index.js",
     "test": "standard"
   },
-  "keywords": [],
+  "keywords": ["penguinjs", "penguinjs-component"],
   "author": "Dominik Burgdörfer <db@domachine.de> (https://domachine.de/)",
   "license": "MIT",
   "dependencies": {
